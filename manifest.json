@@ -1,0 +1,28 @@
+{
+  "name": "hackershare",
+  "description": "Adds a toolbar button to save the current page to hackershare.dev",
+  "version": "2",
+
+  "browser_action": {
+    "default_title": "Add to hackershare",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://hackershare.dev/",
+    "http://localhost:3000/"
+  ],
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "web_accessible_resources": [
+    "auth.html"
+  ],
+
+  "manifest_version": 3
+}
