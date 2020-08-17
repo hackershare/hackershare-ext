@@ -1,7 +1,7 @@
 {
   "name": "hackershare",
   "description": "Adds a toolbar button to save the current page to hackershare.dev",
-  "version": "2",
+  "version": "3",
 
   "browser_action": {
     "default_title": "Add to hackershare",
@@ -16,6 +16,7 @@
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
+    "32": "icon32.png",
     "128": "icon128.png"
   },
 
