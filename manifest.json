@@ -10,8 +10,7 @@
 
   "permissions": [
     "activeTab",
-    "https://hackershare.dev/",
-    "http://localhost:3000/"
+    "https://hackershare.dev/"
   ],
 
   "icons": {
