@@ -59,7 +59,7 @@ function main() {
     })
     .then(API.add)
     .then(function(data) {
-      setHTML("Saved <a href='" + data.location + "'>" + data.title + "</a>");
+      setHTML("Saved <a href='" + data.location + "'>" + data.url + "</a>");
       setTimeout(function(){window.close()}, 5000);
     })
     .catch(logError);
