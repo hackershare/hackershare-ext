@@ -17,7 +17,7 @@ var API = {
       req.onerror = function() {
         reject(Error("XHR error"));
       };
-      req.open('POST', 'http://localhost:3000/' + path);
+      req.open('POST', 'https://hackershare.dev/' + path);
       req.setRequestHeader('Content-Type', 'application/json; charset=UTF8');
       req.setRequestHeader('X-Accept', 'application/json');
       req.setRequestHeader('extension-token', localStorage[Auth.storageKey.extensionToken]);
@@ -50,7 +50,7 @@ var Auth = {
   },
 
   go: function() {
-    window.open("http://localhost:3000/sessions/new" + "?chrome-callback=" + Auth.redirectUri);
+    window.open("https://hackershare.dev/sessions/new" + "?chrome-callback=" + Auth.redirectUri);
   },
 
   onGotUserPermission: function(url) {
