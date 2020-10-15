@@ -21,7 +21,8 @@
   },
 
   "web_accessible_resources": [
-    "auth.html"
+    "auth.html",
+    "icon16.png"
   ],
 
   "manifest_version": 2
